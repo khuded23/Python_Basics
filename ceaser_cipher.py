@@ -25,13 +25,13 @@ def decipher(alpha):
     print(ciphertext.upper())
 
 
-what = input("do you want to encipher or decipher, enter 1 for encipher , 2 for decipher:")
+what = input("do you want to encipher or decipher, enter 1 for encipher , anykey for decipher:")
 
 if what  == '1':
-    en_word = input("Enter a word to be enciphered: ").lower()
+    en_word = (input("Enter a word to be enciphered: ").lower()).strip(" ")
     encipher(en_word)
 else:
-    dechiper = input("Enter a word to be de-ciphered: ").lower()
+    dechiper = (input("Enter a word to be de-ciphered: ").lower()).strip(" ")
     decipher(dechiper)
 
 

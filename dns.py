@@ -31,3 +31,5 @@ while count < var:
     resol = name + ':' + address
     print(resol)
     count += 1
+
+#adding a comment and pushing it to github
