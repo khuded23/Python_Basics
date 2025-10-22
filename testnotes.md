@@ -16,9 +16,12 @@ Activate the venv:
 
 
 		source some_project_venv/bin/activate
+
 		
 
 <img width="1404" height="254" alt="image" src="https://github.com/user-attachments/assets/b86d1b3e-c68e-44d8-b99c-580851b36637" />
+
+
 
 Installing modules :
 
